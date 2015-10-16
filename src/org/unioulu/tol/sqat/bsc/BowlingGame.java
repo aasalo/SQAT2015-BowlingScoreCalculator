@@ -23,7 +23,7 @@ public class BowlingGame {
 		
 		for(int i = 0; i < frames.size(); i++){
 			//wondering if this is the right way to do this. i am ahead of myself
-			//and tests
+			//and tests, maybe i have to use setBonus
 			if (frames.get(i).isStrike() == true){
 			score = score + 10 + frames.get(i+1).score();
 			}
