@@ -58,3 +58,5 @@ RefactoringAction 1444989579724 TestBowlingScoreCalculator.java RENAME test=>voi
 RefactoringAction 1444989585252 TestBowlingScoreCalculator.java RENAME testIf=>void testIfStrikeIsRecognized FIELD
 RefactoringAction 1444989588779 TestBowlingScoreCalculator.java RENAME testIfStrikeIsRecognized=>void testIfStrikeIsRecognized() METHOD
 EditAction 1444989599270 TestBowlingScoreCalculator.java 2449 5 55 4
+FileOpenedAction 1444991088629 TestGrid.java 2439 6 53 8
+EditAction 1444991596876 BowlingGame.java 796 5 4 0
