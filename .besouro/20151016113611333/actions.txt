@@ -1,0 +1,6 @@
+FileOpenedAction 1444984571600 TestBowlingScoreCalculator.java 223 1 1 0
+RefactoringAction 1444984812271 TestBowlingScoreCalculator.java RENAME test()=>void testSingleFrame() METHOD
+RefactoringAction 1444984843774 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+FileOpenedAction 1444984927957 Frame.java 794 6 7 0
+RefactoringAction 1444984968317 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+EditAction 1444985252657 BowlingGame.java 583 5 3 0
