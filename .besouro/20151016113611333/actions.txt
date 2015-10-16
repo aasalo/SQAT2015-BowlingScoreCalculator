@@ -72,3 +72,4 @@ EditAction 1444991927114 BowlingGame.java 795 5 4 0
 UnitTestCaseAction 1444991927422 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444991927423 TestBowlingScoreCalculator OK
 EditAction 1444992019772 BowlingGame.java 844 5 4 0
+EditAction 1444992071042 BowlingGame.java 882 5 4 0
