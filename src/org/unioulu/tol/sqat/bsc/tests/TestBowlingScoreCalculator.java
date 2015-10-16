@@ -44,8 +44,6 @@ public class TestBowlingScoreCalculator {
 	public void testGameWithTenFrames(){
 		//Arrange
 		BowlingGame game = new BowlingGame();
-		
-		//Act
 		Frame frame1 = new Frame(1, 5);
 		Frame frame2 = new Frame(3, 6);
 		Frame frame3 = new Frame(7, 2);
@@ -56,6 +54,8 @@ public class TestBowlingScoreCalculator {
 		Frame frame8 = new Frame(4, 5);
 		Frame frame9 = new Frame(8, 1);
 		Frame frame10 = new Frame(2, 6);
+		
+		//Act
 		game.addFrame(frame1);
 		game.addFrame(frame2);
 		game.addFrame(frame3);
@@ -67,8 +67,9 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(frame9);
 		game.addFrame(frame10);
 		
+		
 		//Assert
-		game.frames.size();
+		assertEquals(10, game.frames.size());
 	}
 
 }
