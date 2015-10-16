@@ -110,11 +110,7 @@ public class TestBowlingScoreCalculator {
 		BowlingGame game = new BowlingGame();
 		
 		Frame frame1 = new Frame(10,0);
-		Frame frame2 = new Frame(3,6);
 		
-		game.addFrame(frame1);
-		game.addFrame(frame2);
-		
-		assertEquals(19, game.score());
+		assertEquals(true, frame1.isStrike());
 	}
 }
