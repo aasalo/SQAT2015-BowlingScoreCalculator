@@ -14,3 +14,8 @@ RefactoringAction 1444986550756 TestBowlingScoreCalculator.java RENAME testCompu
 RefactoringAction 1444986553270 TestBowlingScoreCalculator.java RENAME testComputeScoreOfaFrame=>void testComputeScoreOfaFrame() METHOD
 EditAction 1444986927049 Frame.java 794 6 7 0
 EditAction 1444986927122 TestBowlingScoreCalculator.java 807 2 12 2
+UnitTestCaseAction 1444986927436 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986927437 TestBowlingScoreCalculator OK
+RefactoringAction 1444986938944 TestBowlingScoreCalculator.java ADD void testComputeScoreOfaFrame()/2 METHOD
+RefactoringAction 1444986944963 TestBowlingScoreCalculator.java RENAME testComputeScoreOfaFrame()/2=>void testGameWithTenFrames() METHOD
+EditAction 1444987534802 TestBowlingScoreCalculator.java 1579 3 34 2
