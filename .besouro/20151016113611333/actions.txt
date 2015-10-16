@@ -29,3 +29,9 @@ RefactoringAction 1444987974434 Frame.java REMOVE setFirstThrow(int) METHOD
 RefactoringAction 1444987999294 Frame.java ADD void setFirstThrow(int) METHOD
 RefactoringAction 1444988049668 TestBowlingScoreCalculator.java REMOVE testSingleFrame() METHOD
 EditAction 1444988072835 Frame.java 943 8 9 0
+RefactoringAction 1444988099294 TestBowlingScoreCalculator.java ADD void testGameWithTenFrames()/2 METHOD
+RefactoringAction 1444988108824 TestBowlingScoreCalculator.java RENAME testGameWithTenFrames()/2=>void testComputeGameScore() METHOD
+RefactoringAction 1444988254522 BowlingGame.java ADD int score FIELD
+RefactoringAction 1444988315022 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1444988315022 Frame.java REMOVE setFirstThrow(int) METHOD
+EditAction 1444988320813 Frame.java 796 6 7 0
