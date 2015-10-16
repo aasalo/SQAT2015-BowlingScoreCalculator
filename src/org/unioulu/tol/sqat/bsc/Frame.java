@@ -5,13 +5,13 @@ public class Frame {
 	private int secondThrow;
 	
 	public Frame(int firstThrow, int secondThrow){
-		this.firstThrow = firstThrow;
+		this.setFirstThrow(firstThrow);
 		this.secondThrow = secondThrow;
 	}
 	
 	//the score of a single frame
 	public int score(){
-		return firstThrow + secondThrow;
+		return getFirstThrow() + secondThrow;
 	}
 
 	//returns whether the frame is a strike or not
@@ -36,5 +36,13 @@ public class Frame {
 	public int bonus(){
 		//to be implemented
 		return 0;
+	}
+
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+
+	public void setFirstThrow(int firstThrow) {
+		this.firstThrow = firstThrow;
 	}
 }
