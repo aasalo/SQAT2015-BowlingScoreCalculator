@@ -22,5 +22,22 @@ public class TestBowlingScoreCalculator {
 		//Assert
 		assertEquals(1, game.frames.size());
 	}
+	
+	@Test
+	public void testComputeScoreOfaFrame(){
+		//Arrange
+		BowlingGame game = new BowlingGame();
+		
+		int throw1 = 2;
+		int throw2 = 4;
+		
+		//Act
+		Frame frame = new Frame(throw1, throw2);
+		frame.score();
+		
+		//Assert
+		assertEquals(6, frame.score());
+		
+	}
 
 }
