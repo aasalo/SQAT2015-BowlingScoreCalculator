@@ -5,7 +5,7 @@ public class Frame {
 	private int secondThrow;
 	
 	public Frame(int firstThrow, int secondThrow){
-		this.setFirstThrow(firstThrow);
+		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
 	

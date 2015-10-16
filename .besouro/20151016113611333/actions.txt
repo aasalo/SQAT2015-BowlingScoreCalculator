@@ -25,3 +25,7 @@ UnitTestSessionAction 1444987648121 TestBowlingScoreCalculator OK
 RefactoringAction 1444987739899 TestBowlingScoreCalculator.java ADD void testSingleFramePlayed()/2 METHOD
 RefactoringAction 1444987743929 TestBowlingScoreCalculator.java RENAME testSingleFramePlayed()/2=>void testSingleFrame() METHOD
 EditAction 1444987955515 Frame.java 945 8 9 0
+RefactoringAction 1444987974434 Frame.java REMOVE setFirstThrow(int) METHOD
+RefactoringAction 1444987999294 Frame.java ADD void setFirstThrow(int) METHOD
+RefactoringAction 1444988049668 TestBowlingScoreCalculator.java REMOVE testSingleFrame() METHOD
+EditAction 1444988072835 Frame.java 943 8 9 0
