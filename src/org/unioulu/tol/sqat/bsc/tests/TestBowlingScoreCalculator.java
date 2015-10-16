@@ -103,4 +103,9 @@ public class TestBowlingScoreCalculator {
 		assertEquals(81, game.score());
 		
 	}
+	
+	@Test
+	public void testIfStrikeIsRecognized(){
+		
+	}
 }

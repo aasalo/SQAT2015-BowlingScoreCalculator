@@ -2,3 +2,12 @@
 1444986927437 test-addition 1 382 true
 1444987648121 test-addition 1 709 true
 1444987648122 test-addition 1 709 true
+1444988733144 test-first 3 993 true
+1444988733145 test-first 3 993 true
+1444988733146 test-last 1 993 false
+1444988733147 test-last 1 993 false
+1444988733148 test-first 3 993 true
+1444988733149 test-last 1 993 false
+1444988733150 test-last 1 993 false
+1444988733151 test-last 1 993 false
+1444988733152 test-last 1 993 false
