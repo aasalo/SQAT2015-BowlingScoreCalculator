@@ -26,7 +26,7 @@ public class BowlingGame {
 			if (frames.get(i).isStrike() == true){
 			score = score + 10 + frames.get(i+1).score();
 			}
-			else 
+			else
 				score = score + frames.get(i).score();
 		}
 		
