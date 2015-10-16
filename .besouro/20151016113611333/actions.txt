@@ -35,3 +35,4 @@ RefactoringAction 1444988254522 BowlingGame.java ADD int score FIELD
 RefactoringAction 1444988315022 Frame.java REMOVE getFirstThrow() METHOD
 RefactoringAction 1444988315022 Frame.java REMOVE setFirstThrow(int) METHOD
 EditAction 1444988320813 Frame.java 796 6 7 0
+EditAction 1444988328299 BowlingGame.java 600 5 2 0
