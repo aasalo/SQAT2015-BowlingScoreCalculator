@@ -6,3 +6,10 @@ RefactoringAction 1444984968317 TestBowlingScoreCalculator.java ADD import org.u
 EditAction 1444985252657 BowlingGame.java 583 5 3 0
 RefactoringAction 1444985813181 TestBowlingScoreCalculator.java RENAME testSingleFrame()=>void testSingleFramePlayed() METHOD
 EditAction 1444986477759 TestBowlingScoreCalculator.java 524 1 6 1
+UnitTestCaseAction 1444986478873 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986478875 TestBowlingScoreCalculator OK
+RefactoringAction 1444986544729 TestBowlingScoreCalculator.java ADD void testComputeScore FIELD
+RefactoringAction 1444986548247 TestBowlingScoreCalculator.java RENAME testComputeScore=>void testComputeScoreOf FIELD
+RefactoringAction 1444986550756 TestBowlingScoreCalculator.java RENAME testComputeScoreOf=>void testComputeScoreOfaFrame FIELD
+RefactoringAction 1444986553270 TestBowlingScoreCalculator.java RENAME testComputeScoreOfaFrame=>void testComputeScoreOfaFrame() METHOD
+EditAction 1444986927049 Frame.java 794 6 7 0
