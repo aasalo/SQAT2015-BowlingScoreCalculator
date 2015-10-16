@@ -21,9 +21,11 @@ public class BowlingGame {
 	
 	public int score(){
 		
-		score = 
+		for(Frame frame : frames){
+			score = score + frame.score();
+		}
 		
-		return 0;
+		return score;
 	}
 	
 	public boolean isNextFrameBonus(){

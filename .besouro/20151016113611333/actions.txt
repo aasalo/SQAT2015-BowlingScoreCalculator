@@ -37,3 +37,8 @@ RefactoringAction 1444988315022 Frame.java REMOVE setFirstThrow(int) METHOD
 EditAction 1444988320813 Frame.java 796 6 7 0
 EditAction 1444988328299 BowlingGame.java 600 5 2 0
 EditAction 1444988328414 TestBowlingScoreCalculator.java 2392 4 55 4
+CompilationAction 1444988328520 BowlingGame.java
+CompilationAction 1444988338211 BowlingGame.java
+UnitTestCaseAction 1444988338439 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444988338439 TestBowlingScoreCalculator FAIL
+EditAction 1444988705065 BowlingGame.java 662 5 4 0
