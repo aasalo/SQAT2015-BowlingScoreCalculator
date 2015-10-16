@@ -112,6 +112,9 @@ public class TestBowlingScoreCalculator {
 		Frame frame1 = new Frame(10,0);
 		Frame frame2 = new Frame(3,6);
 		
-		assertEquals(19, frame1.score());
+		game.addFrame(frame1);
+		game.addFrame(frame2);
+		
+		assertEquals(19, game.score());
 	}
 }
