@@ -99,6 +99,7 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(frame9);
 		game.addFrame(frame10);
 		
+		game.score();
 		
 		//Assert
 		assertEquals(81, game.score());
