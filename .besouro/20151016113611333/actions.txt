@@ -61,3 +61,4 @@ EditAction 1444989599270 TestBowlingScoreCalculator.java 2449 5 55 4
 FileOpenedAction 1444991088629 TestGrid.java 2439 6 53 8
 EditAction 1444991596876 BowlingGame.java 796 5 4 0
 EditAction 1444991596950 Frame.java 831 6 7 0
+EditAction 1444991597038 TestBowlingScoreCalculator.java 2604 5 59 5

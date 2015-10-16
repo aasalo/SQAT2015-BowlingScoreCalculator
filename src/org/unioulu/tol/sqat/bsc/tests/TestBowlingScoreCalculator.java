@@ -107,5 +107,11 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testIfStrikeIsRecognized(){
 		
+		BowlingGame game = new BowlingGame();
+		
+		Frame frame1 = new Frame(10,0);
+		Frame frame2 = new Frame(3,6);
+		
+		assertEquals(19, frame1.score());
 	}
 }
