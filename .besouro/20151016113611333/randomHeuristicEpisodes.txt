@@ -2,3 +2,4 @@
 1444986927437 test-addition 1 382 true
 1444987648121 test-addition 1 709 true
 1444988733144 test-first 3 993 true
+1444991927423 test-last 1 2370 false

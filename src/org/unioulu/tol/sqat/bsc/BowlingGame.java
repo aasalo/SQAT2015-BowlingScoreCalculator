@@ -22,7 +22,7 @@ public class BowlingGame {
 	public int score(){
 		
 		for(int i = 0; i < frames.size(); i++){
-	
+			//wondering if this is the right way to do this
 			if (frames.get(i).isStrike() == true){
 			score = score + 10 + frames.get(i+1).score();
 			}
